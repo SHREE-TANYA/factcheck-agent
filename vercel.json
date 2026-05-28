@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/extract", "destination": "/api/extract.js" },
+    { "source": "/api/verify", "destination": "/api/verify.js" },
+    { "source": "/(.*)", "destination": "/public/index.html" }
+  ]
+}
